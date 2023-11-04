@@ -147,7 +147,9 @@ textarea {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
   .btn:hover {
-    transform: translateY(-3px); }
+    transform: translateY(-3px); 
+    box-shadow: 0px 3px 10px #9c9c9c;
+  }
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
@@ -293,9 +295,17 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 100%;
+    width: 95%;
+    height: 95%;
     display: block;
-    object-fit: cover; }
+    object-fit: cover;
+    transition: all 200ms ease-in-out;
+   }
+    .projects__row-img:hover {
+      box-shadow: 0px 3px 18px #515151;
+      transform: translateY(-2px); 
+      }
+
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
