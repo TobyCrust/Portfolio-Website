@@ -185,6 +185,46 @@ textarea {
 .d-none {
   display: none; }
 
+
+
+  
+.iframe-container-seagulls {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    text-align: center;
+    @media (max-width: 768px){
+
+    }
+  }
+  .iframe-container-seagulls iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+  }
+
+
+
+  .iframe-container-schooloffish{
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    text-align: center;
+    @media (max-width: 768px){
+
+    }
+  }
+  .iframe-container-schooloffish iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 80%;
+  }
+
+
 .home-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(2, 129, 138, 0.8), rgba(0, 63, 172, 0.8)), url(../../assets/svg/common-bg.svg);
