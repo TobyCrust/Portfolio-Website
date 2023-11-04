@@ -192,17 +192,28 @@ textarea {
     position: relative;
     width: 100%;
     padding-top: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 0%;
     text-align: center;
-    @media (max-width: 768px){
 
-    }
   }
   .iframe-container-seagulls iframe {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20rem;
     width: 70%;
     height: 70%;
+    
+  }
+
+  @media (max-width: 768px) {
+    .iframe-container-seagulls iframe {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      left: 0;
+      text-align: center;
+      margin-bottom: 0px; 
+    }
   }
 
 
@@ -212,16 +223,24 @@ textarea {
     width: 100%;
     padding-top: 56.25%; /* 16:9 aspect ratio */
     text-align: center;
-    @media (max-width: 768px){
-
-    }
   }
   .iframe-container-schooloffish iframe {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 60%;
-    height: 80%;
+    left: 20rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .iframe-container-schooloffish iframe {
+      position: relative;
+      width: 100%;
+      height: 140vh;
+      left: 0;
+      text-align: center;
+      margin-bottom: 0px; 
+    }
   }
 
 
@@ -305,6 +324,17 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .about__content-title {
           font-size: 2.4rem; } }
+
+
+.seagull__content-title {
+      font-weight: 700;
+      font-size: 4.8rem;
+      margin-bottom: 1rem; 
+      margin-top: 0.1rem;}
+      @media only screen and (max-width: 37.5em) {
+        .about__content-title {
+          font-size: 2.4rem; } }
+
     .about__content-details-para {
       font-size: 1.8rem;
       color: grey;
