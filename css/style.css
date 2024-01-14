@@ -318,14 +318,13 @@ textarea {
 
 @media (max-width: 768px) {
   .iframe-container-seagulls iframe {
-    position: absolute;
-    width: 200%;
-    height: 100vh;
-    left: 10rem;
+   
+    width: 40vh;
+    height: 20vh;
+    left: 12.5rem;
     text-align: center;
     justify-content: center;
-
-
+    
   }
 }
 
@@ -392,11 +391,12 @@ textarea {
   .iframe-container-schooloffish iframe {
     position: absolute;
     width: 100%;
-    height: 140vh;
+    height: 0vh;
     left: 10rem;
     margin: auto;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
+    display: none;
   }
 }
 
@@ -858,8 +858,14 @@ textarea {
 }
 
 .project-details__content-main {
-  width: 100%;
+  width: 92%;
   max-width: 70rem;
+  margin: auto;
+}
+
+.project-details__content-main_Gallery {
+  width: 92%;
+  max-width: 110rem;
   margin: auto;
 }
 
