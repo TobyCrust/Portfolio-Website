@@ -878,8 +878,34 @@ textarea {
   line-height: 1.7;
   color: grey;
   margin-bottom: 2rem;
+  margin-top: 0%;
 }
 
+.project-details__desc-para_sea {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: grey;
+  margin-bottom: 2rem;
+  margin-top: 0%;
+}
+
+
+@media only screen and (max-width: 37.5em) {
+  .project-details__desc-para {
+    margin-top: 22rem;
+    font-size: 1.8rem;
+  line-height: 1.7;
+  color: grey;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .project-details__desc_sea {
+    margin-top: -20%;
+    
+    
+  }
+}
 
 
 
