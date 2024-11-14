@@ -293,27 +293,17 @@ textarea {
 
 
 .iframe-container-seagulls {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-  /* 16:9 aspect ratio */
-  padding-bottom: 0;
-  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-top: 8rem;
 }
 
 .iframe-container-seagulls iframe {
-  position: absolute;
-  top: 0;
-  left: 35rem;
-  width: 80%;
-  height: 80%;
-  justify-content: center;
-  align-items: center;
-
-
+  width: 100%;
+  max-width: 800px; /* Adjust this value as needed */
+  height: 70vh;
+  border: 0;
 }
 
 @media (max-width: 768px) {
