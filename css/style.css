@@ -318,6 +318,18 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .iframe-container-seagulls iframe {
+    margin-left: 15rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iframe-container-seagulls iframe {
+    margin-left: 0 !important;
+  }
+}
+
 
 
 .alphabet-container {
